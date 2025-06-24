@@ -60,6 +60,8 @@
             font-size: 16px;
             cursor: pointer;
             border-radius: 40px;
+            transition: all 0.3s ease;
+            flex-shrink: 0;
         }
         
 .unclick-btn {
@@ -154,6 +156,24 @@ ul li small {
             background-color: #f44336;
             color: white;
         }
+ @media (max-width: 600px) {
+        .row {
+        flex-direction: column;
+        gap: 10px;
+        padding: 15px;
+    }
+
+    input {
+        width: 100%;
+    }
+
+    button {
+        width: 100%;
+        font-size: 16px;
+        padding: 12px;
+        border-radius: 30px;
+    }
+}
     </style>
 </head>
 <body>
